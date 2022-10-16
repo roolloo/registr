@@ -1,0 +1,188 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+
+}
+
+.conteiner {
+	margin: 0 auto;
+	width: calc(100% - calc(21px * 2));
+}
+
+.arrow {
+	display: block;
+	text-decoration: none;
+	width: 41px;
+	margin-left: 22px;
+	margin-top: 32px;
+	height: 41px;
+	border-radius: 8px;
+	border: 1px solid #E8ECF4;
+	font-size: 31px;
+	text-align: center;
+	color: #1E232C;
+}
+
+
+.title__text {
+	font-family: 'Urbanist';
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 130%;
+	color: #1E232C;
+	letter-spacing: -0.01em;
+	padding-top: 42px;
+	width: 280px;
+	padding-bottom: 57px;
+	margin-bottom: 0;
+}
+
+.form {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input {
+	width: calc(100% - 3px * 2);
+	height: 56px;
+	background: #F7F8F9;
+	border: 1px solid #DADADA;
+	border-radius: 8px;
+	margin-bottom: 15px;
+	padding-left: 21px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.pass {
+	margin-bottom: 5px;
+}
+
+.pass::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #000;
+}
+
+
+
+
+
+.form__link {
+	font-family: 'Urbanist';
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #6A707C;
+	text-align: right;
+	width: calc(100% - 3px * 2);
+
+	padding-bottom: 65px;
+}
+
+.submit__login {
+	width: calc(100% - 3px * 2);
+	height: 56px;
+	background: #1E232C;
+	color: #fff;
+	/* border: 1px solid #DADADA; */
+	border-radius: 8px;
+	margin-bottom: 15px;
+	padding-left: 21px;
+	outline: none;
+}
+
+.form__text {
+	width: calc(100% - 3px * 2);
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #6A707C;
+	position: relative;
+}
+
+.form__text::after,
+.form__text::before {
+
+	position: absolute;
+	content: '';
+	display: block;
+	width: 33%;
+	height: 0.5px;
+	background-color: #6A707C50;
+	bottom: 9px;
+}
+
+.form__text::after {
+	left: 0;
+}
+
+.form__text::before {
+	right: 0;
+}
+
+.btn__area {
+	width: calc(100% - 3px * 2);
+	display: flex;
+	justify-content: space-between;
+	padding-top: 22px;
+	padding-bottom: 83px;
+}
+
+.link {
+	width: 30%;
+	height: 56px;
+	display: block;
+	box-sizing: border-box;
+	padding: 15px 40px;
+	border-radius: 8px;
+	border: 1px solid #E8ECF4;
+
+}
+
+.text__link {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+	font-family: 'Urbanist';
+
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 21px;
+	/* identical to box height, or 21px */
+
+	text-align: center;
+	letter-spacing: 0.01em;
+
+	color: #1E232C;
+}
+
+.link__bottom {
+
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 21px;
+	/* identical to box height, or 21px */
+
+	text-align: center;
+	letter-spacing: 0.01em;
+	text-decoration: none;
+	color: #35C2C1;
+}
